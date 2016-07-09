@@ -1,0 +1,56 @@
+*switch TS compile back to the main dir, ignore js files with git and have vscode ignore as well
+*remove hardcoded data from client (in event.service.ts)
+  make the event service gather data through http
+*add sorting of sessions based on votes - discuss pipes
+*add filtering of sessions
+*add price to event data
+*implement collapsable panel
+*rework sorting & filtering in details page to use [class.active] instead of ngClass
+*joe - a "global login" and existing users
+*add profile page
+*joe - make voting only upvote and remove
+*add authentication
+*joe - add more sample data - make the sample data futuristic
+*joe - add voting persistence - with delete?? - also remove votecount?
+*joe - hook up a search
+  possibly use a directive for bootstrap dropdown controlling.
+*joe - change the body close clicker to work only on the modal-body tag 
+*joe - wrap jQuery in a service
+*joe - look at using provide() for wrapping toastr - provide(MyValue, {useValue: 41})
+*joe - make the title in the collapsible well a 2nd ng-content to show multi slot content projection 
+
+*jim - implement the add session ability
+*joe - after creating an event, redirect to event details in session create mode
+*jim - implement durations pipe
+
+split the saveEvent method into a createEvent and updateEvent method
+
+do datekeys directive
+joe - figure out deployment - use gulp template precacher? use now on mac?
+use animation when elements get resorted due to voting
+
+later:
+make a dynamic form?
+switch typescript to systemjs module type
+use a heirarchical injector
+attribute directive ideas:
+  measure weight of something with font-weight?
+  turn some text a certain color when a bool is true (used for voting)
+  a bootstrap dropdown controller?
+make a more robust voting algorithm, maybe add a service
+eval the a2-in-memory-web-api
+*take out the extraneous event interface or class
+look at integrating CLI
+digging into immutable data?
+digging into observable data?
+covering lifecycle events?
+cover trackby and index in ngFor
+READ THE STYLE GUIDE
+look at integrating CLI
+implement tests
+make active link work in navbar
+jim - authentication - JWT
+Add a profile (or user) section of the site with a top-level route
+jim - implement date picker (or something else) - i don't think we need this
+
+http://monorailcat.com/wp-content/uploads/2013/05/funny-cat-videos-part-5.jpg
